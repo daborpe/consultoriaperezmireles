@@ -23,7 +23,7 @@ a:visited {
 	text-decoration: none;
 }
 .lista {
-	background-color: rgba(255, 255, 255, 0.2);
+	background-color: rgba(255, 255, 255, 0.4);
 	border-radius: 10px;
 	color: #34363a;
 	padding-top: 2%;
@@ -93,6 +93,7 @@ a:visited {
 /* Slide 1 */ 
 
 #slide1{
+	background-image:url('../img/madera.jpg');
 	background-color:#ffffff;
 }
 #slide1 h1 {
@@ -141,7 +142,7 @@ a:visited {
 /* Slide 3 */ 
 
 #slide3{
-
+	background-image:url('../img/fondo.jpg');
 	background-color:#ffffff;
 }
 #slide3 h1 {

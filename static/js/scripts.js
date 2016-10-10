@@ -1,5 +1,6 @@
 jQuery(document).ready(function ($) {
 
+    cambiarTamano();
 
     $(window).stellar();
 
@@ -52,12 +53,17 @@ jQuery(document).ready(function ($) {
     });
 
     
-
 });
 function cambiarTamano(){
-    if($(document).width()==1024){
-        $('#target1').removeClass("grid_3").addClass("grid_12");
-        $('#target2').removeClass().addClass("grid_12");
-        $('#target3').removeClass().addClass("grid_12");
+    if($(window).width()<=1024){
+
+        $('.clase1').removeClass('grid_4').addClass('grid_12');
+        $('.clase2').removeClass('grid_4').addClass('grid_12');
+        $('.clase3').removeClass('grid_3').addClass('grid_12');
+    }
+    else{
+        $('.clase1').removeClass('grid_12').addClass('grid_4');
+        $('.clase2').removeClass('grid_12').addClass('grid_4');
+        $('.clase3').removeClass('grid_12').addClass('grid_3');
     }
 }
