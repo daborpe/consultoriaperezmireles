@@ -1,6 +1,5 @@
 jQuery(document).ready(function ($) {
 
-
     $(window).stellar();
 
     var links = $('.navigation').find('li');
