@@ -1,5 +1,6 @@
 jQuery(document).ready(function ($) {
 
+
     $(window).stellar();
 
     var links = $('.navigation').find('li');
@@ -77,6 +78,6 @@ jQuery(document).ready(function ($) {
             $('.clase2').removeClass('grid_12').addClass('grid_4');
             $('.clase3').removeClass('grid_12').addClass('grid_3');
         }
-
+       
     });
 });   
